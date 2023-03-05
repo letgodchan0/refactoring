@@ -3,6 +3,7 @@ package com.gamul.allergy;
 import com.gamul.BaseEntity;
 import com.gamul.ingredient.Ingredient;
 import com.gamul.user.User;
+import org.hibernate.annotations.OnDelete;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
